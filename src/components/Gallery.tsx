@@ -15,63 +15,63 @@ const Gallery = () => {
   const images = [
     {
       id: 1,
-      src: "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/736x/d2/9e/fe/d29efee8299f4e38ef92cb0a7ace4ad2.jpg",
       category: 'concept',
-      title: 'REBOOT Concept Photo',
+      title: 'Love Pulse Concept Photo',
       likes: 2450
     },
     {
       id: 2,
-      src: "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/736x/7f/1b/4f/7f1b4feda6ec9663852f9a5670a9ed29.jpg",
       category: 'performance',
       title: 'Live Performance',
       likes: 3210
     },
     {
       id: 3,
-      src: "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/736x/7d/d6/be/7dd6be2423db6fe97df04a53f43077da.jpg",
       category: 'concept',
       title: 'Individual Portrait',
       likes: 1890
     },
     {
       id: 4,
-      src: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/1200x/a1/74/4d/a1744dd3cadb09e287b968a6d5011553.jpg",
       category: 'behind',
       title: 'Recording Session',
       likes: 1567
     },
     {
       id: 5,
-      src: "https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/736x/be/ca/8b/beca8b604cee8a8968262f6ae471d48f.jpg",
       category: 'concept',
       title: 'Group Photo Shoot',
       likes: 4320
     },
     {
       id: 6,
-      src: "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/736x/da/4a/7b/da4a7ba8bf12b894a20315e87fd7a701.jpg",
       category: 'performance',
       title: 'Stage Performance',
       likes: 2890
     },
     {
       id: 7,
-      src: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/736x/ec/3f/2c/ec3f2cbe0ce67247985b20c49358ed58.jpg",
       category: 'behind',
       title: 'Practice Room',
       likes: 1234
     },
     {
       id: 8,
-      src: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/1200x/5e/6e/14/5e6e14fbab3e50ca5ee75241ffa63ffc.jpg",
       category: 'concept',
       title: 'Fashion Shoot',
       likes: 3456
     },
     {
       id: 9,
-      src: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=2",
+      src: "https://i.pinimg.com/1200x/34/d2/3e/34d23ec8c2636b6b833d1511d2ce44a6.jpg",
       category: 'behind',
       title: 'Backstage Moments',
       likes: 2100

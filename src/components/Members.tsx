@@ -7,208 +7,177 @@ const Members = () => {
   const members = [
     {
       name: "CHOI HYUNSUK",
-      koreanName: "최현석",
-      position: "Leader, Main Rapper",
-      birthDate: "11 April 1999",
+      koreanName: "현석",
+      englishName: "Daniel Choi",
+      position: "Rapper, Dancer",
+      birthDate: "April 21, 1999",
       birthPlace: "Daegu, Korea Selatan",
-      height: "176 cm",
-      bloodType: "AB",
+      height: "171 cm",
+      bloodType: "A",
       funFacts: [
-        "Mantan trainee SM Entertainment selama 4 tahun",
-        "Ahli dalam dance dan rap",
-        "Suka menggambar dan fotografi",
-        "Memiliki senyum yang sangat manis"
+        "Koleksi lip balm lebih banyak dari koleksi topi.",
+        "Pernah ditolak audisi lebih dari 10 kali sebelum akhirnya masuk YG.",
+        "Fans bilang ia punya kebiasaan bicara sendiri saat nervous.",
+        "Dulu bercita-cita jadi produser sebelum yakin jadi idol."
       ],
-      image: "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
+      image: "https://i.pinimg.com/736x/53/83/0d/53830d70fa9b81446f5e9497f546c946.jpg",
       color: "from-red-400 to-pink-500"
     },
     {
       name: "PARK JIHOON",
-      koreanName: "박지훈", 
+      koreanName: "박지훈",
+      englishName: "Jun Park", 
       position: "Visual, Vocalist",
-      birthDate: "14 Mei 2000",
-      birthPlace: "Seoul, Korea Selatan",
+      birthDate: "Maret 14, 2000",
+      birthPlace: "Busan, Korea Selatan",
       height: "178 cm",
-      bloodType: "O",
+      bloodType: "B",
       funFacts: [
-        "Visual utama TREASURE dengan wajah seperti pangeran",
-        "Mantan trainee FNC Entertainment",
-        "Suka bermain game dan menonton film",
-        "Memiliki suara yang sangat merdu"
+        "Punya tahi lalat kecil di dada yang jadi “signature” bagi fans lama.",
+        "Suka ngasih hadiah random (kayak polaroid dengan pesan kocak) ke member lain.",
+        "Dulu dijuluki “prince of mood maker” oleh trainee YG.",
+        "Bisa niru suara karakter kartun dengan lumayan mirip."
       ],
-      image: "https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
+      image: "https://i.pinimg.com/736x/43/68/ec/4368ec487a3364532b1f4f5cedfaac8d.jpg",
       color: "from-blue-400 to-cyan-500"
     },
     {
       name: "KANEMOTO YOSHINORI",
-      koreanName: "요시",
+      koreanName: "카네모토 요시노리",
+      englishName: "Jaden Kim", 
       position: "Rapper, Dancer",
-      birthDate: "15 Mei 2000", 
-      birthPlace: "Osaka, Jepang",
-      height: "178 cm",
+      birthDate: "Mei 15, 2000", 
+      birthPlace: "Kobe, Jepang",
+      height: "179 cm",
       bloodType: "A",
       funFacts: [
-        "Member Jepang pertama TREASURE",
-        "Rapper dengan flow yang unik",
-        "Suka anime dan manga",
-        "Memiliki kepribadian yang lucu dan menggemaskan"
+        "Bisa bikin beat hanya dengan beatbox dan pulpen.",
+        "Waktu trainee, dia suka bikin rap pakai lirik anime.",
+        "Punya kebiasaan tidur sambil dengerin OST anime.",
+        "Sering desain tato ilustrasi sendiri "
       ],
-      image: "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
+      image: "https://i.pinimg.com/736x/0a/c7/28/0ac7287bfa0e15db82409899b9b768ed.jpg",
       color: "from-purple-400 to-indigo-500"
     },
     {
       name: "KIM JUNKYU",
       koreanName: "김준규",
       position: "Main Vocalist",
-      birthDate: "9 September 2000",
-      birthPlace: "Daegu, Korea Selatan", 
-      height: "179 cm",
-      bloodType: "A",
+      birthDate: "September 9, 2000",
+      birthPlace: "Chungju, Korea Selatan", 
+      height: "178 cm",
+      bloodType: "O",
       funFacts: [
-        "Main vocalist dengan vocal range yang luas",
-        "Dikenal sebagai 'Vocal King' TREASURE",
-        "Suka menonton drama dan variety show",
-        "Memiliki mata yang sangat indah"
+        "Punya dua kucing yang dipanggilnya “noona” (Ruby & Aengdu).",
+        "Gampang banget ketiduran bahkan di ruang latihan.",
+        "Nggak suka kalau ada orang duduk di tempat tidurnya.",
+        "Dijuluki “Koala” karena wajahnya mirip binatang itu saat senyum."
       ],
-      image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
+      image: "https://i.pinimg.com/736x/fb/dc/aa/fbdcaa93b40e17524eac41bd6562bf39.jpg",
       color: "from-green-400 to-emerald-500"
-    },
-    {
-      name: "TAKATA MASHIHO",
-      koreanName: "마시호",
-      position: "Vocalist, Visual",
-      birthDate: "25 Maret 2001",
-      birthPlace: "Fukuoka, Jepang",
-      height: "164 cm", 
-      bloodType: "AB",
-      funFacts: [
-        "Member termuda kedua TREASURE",
-        "Visual line dengan wajah seperti boneka",
-        "Suka bermain piano dan menggambar",
-        "Memiliki senyum yang sangat manis dan infectious"
-      ],
-      image: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
-      color: "from-yellow-400 to-orange-500"
     },
     {
       name: "YOON JAEHYUK",
       koreanName: "윤재혁",
       position: "Vocalist, Visual",
-      birthDate: "23 Juli 2001",
-      birthPlace: "Seoul, Korea Selatan",
-      height: "179 cm",
-      bloodType: "O",
+      birthDate: "Juli 23, 2001",
+      birthPlace: "Yongin, Korea Selatan",
+      height: "178 cm",
+      bloodType: "OS",
       funFacts: [
-        "Visual line dengan tinggi yang ideal",
-        "Suka olahraga terutama basket",
-        "Memiliki kepribadian yang tenang dan dewasa",
-        "Dikenal sebagai 'Gentleman' TREASURE"
+        "Kidal, tapi beberapa dance move dia pakai tangan kanan biar sinkron.",
+        "Punya eyelid tebal hanya di satu sisi mata, katanya itu daya tarik unik.",
+        "Suka banget ngemil midnight snack bareng maknae.",
+        "Katanya punya kemampuan “bau” parfum dan langsung ingat siapa pemiliknya."
       ],
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
+      image: "https://i.pinimg.com/736x/cd/37/c6/cd37c66c3bb6425e4d75076f4ebe8815.jpg",
       color: "from-pink-400 to-rose-500"
     },
     {
       name: "HAMADA ASAHI",
-      koreanName: "아사히",
+      koreanName: "浜田朝光",
       position: "Vocalist, Visual",
-      birthDate: "20 Agustus 2001", 
-      birthPlace: "Kumamoto, Jepang",
-      height: "175 cm",
-      bloodType: "O",
+      birthDate: "Agustus 20, 2001", 
+      birthPlace: "Osaka, Jepang",
+      height: "172 cm",
+      bloodType: "AB",
       funFacts: [
-        "Member Jepang dengan suara yang sangat merdu",
-        "Suka memasak dan eksperimen dengan makanan",
-        "Memiliki mata yang sangat ekspresif",
-        "Dikenal sebagai 'Angel Voice' TREASURE"
+        "Salah satu kata Korea favoritnya “예술작품 (artwork)”.",
+        "Suka gambar doodle random di mana aja (bahkan tisu & botol minum).",
+        "Dulu main bola di Jepang sebelum pindah ke musik.",
+        "Pernah bikin lagu lengkap hanya dalam semalam."
       ],
-      image: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
+      image: "https://i.pinimg.com/736x/c2/13/af/c213afb44a2fb4d0e8c9582e7d64fe35.jpg",
       color: "from-teal-400 to-blue-500"
     },
     {
-      name: "BANG YEDAM",
-      koreanName: "방예담",
-      position: "Main Vocalist, Songwriter",
-      birthDate: "7 Mei 2002",
-      birthPlace: "Busan, Korea Selatan",
-      height: "173 cm",
-      bloodType: "O", 
-      funFacts: [
-        "Mantan peserta K-pop Star 2",
-        "Songwriter berbakat yang telah menulis banyak lagu",
-        "Memiliki suara yang sangat powerful",
-        "Dikenal sebagai 'Golden Voice' TREASURE"
-      ],
-      image: "https://images.pexels.com/photos/1812756/pexels-photo-1812756.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
-      color: "from-indigo-400 to-purple-500"
-    },
+        name: "KIM DOYOUNG",
+        koreanName: "김도영",
+        position: "Vocalist, Dancer",
+        birthDate: "Desember 4, 2003",
+        birthPlace: "Tokyo, Jepang",
+        height: "177 cm",
+        bloodType: "B",
+        funFacts: [
+          "Dijuluki “Sunshine” karena senyumnya dianggap paling cerah di grup.",
+          "Bisa tidur dengan posisi badan miring aneh tapi tetap nyenyak.",
+          "Paling sering ketawa sampai nangis di antara member.",
+          "Suka banget sama parfum, katanya punya koleksi lebih dari 10 botol."
+        ],
+        image: "https://i.pinimg.com/736x/1b/ef/56/1bef56b814a1f4691696011e892a58a4.jpg",
+        color: "from-yellow-400 to-amber-500"
+      },
     {
-      name: "SO JUNGHWAN",
-      koreanName: "소정환",
-      position: "Vocalist, Maknae",
-      birthDate: "18 Februari 2005",
-      birthPlace: "Iksan, Korea Selatan", 
-      height: "179 cm",
-      bloodType: "A",
-      funFacts: [
-        "Maknae (member termuda) TREASURE",
-        "Tinggi tertinggi di grup meski termuda",
-        "Suka bermain game dan olahraga",
-        "Dikenal sebagai 'Giant Baby' karena tinggi tapi muka baby"
-      ],
-      image: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
-      color: "from-orange-400 to-red-500"
-    },
+        name: "WATANABE HARUTO",
+        koreanName: "하루토",
+        position: "Rapper, Visual",
+        birthDate: "April 5, 2004",
+        birthPlace: "Fukuoka, Jepang",
+        height: "184 cm",
+        bloodType: "B",
+        funFacts: [
+          "Pernah seminggu penuh nggak minum air putih, hanya soda & jus.",
+          "Sering ketahuan pakai kaos kaki yang sama dua hari berturut-turut.",
+          "Punya kebiasaan ngitung helai rambut waktu trainee.",
+          "Dulu pengen jadi pemain basket sebelum yakin jadi idol."
+        ],
+        image: "https://i.pinimg.com/736x/1f/af/ac/1fafac60f09256a14c3abf1adfa7cdb3.jpg",
+        color: "from-purple-400 to-pink-500"
+      },
     {
       name: "PARK JEONGWOO",
       koreanName: "박정우",
       position: "Main Vocalist",
-      birthDate: "28 September 2004",
-      birthPlace: "Seoul, Korea Selatan",
-      height: "175 cm",
-      bloodType: "AB",
+      birthDate: "September 28, 2004",
+      birthPlace: "Eoyang-dong, Korea Selatan",
+      height: "181 cm",
+      bloodType: "O",
       funFacts: [
-        "Main vocalist dengan teknik vocal yang luar biasa",
-        "Suka menonton anime dan bermain game",
-        "Memiliki kepribadian yang energik dan lucu",
-        "Dikenal sebagai 'Vocal Prodigy' TREASURE"
+        "Paling sering tiba-tiba nyanyi lagu trot di dorm.",
+        "Dikenal suka makan cepat, sampai fans sebut dia “eating machine”.",
+        "Suka meniru suara member lain dengan cukup mirip.",
+        "Punya kebiasaan humming lagu bahkan saat lagi mandi."
       ],
-      image: "https://images.pexels.com/photos/1310522/pexels-photo-1310522.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
+      image: "https://i.pinimg.com/736x/58/36/5e/58365e85970b168e7f9cd0b160dd3b14.jpg",
       color: "from-cyan-400 to-teal-500"
     },
     {
-      name: "WATANABE HARUTO",
-      koreanName: "하루토",
-      position: "Rapper, Visual",
-      birthDate: "5 April 2004",
-      birthPlace: "Fukuoka, Jepang",
-      height: "185 cm",
-      bloodType: "O",
-      funFacts: [
-        "Member tertinggi TREASURE",
-        "Rapper dengan visual yang memukau",
-        "Suka fotografi dan fashion",
-        "Dikenal sebagai 'Tall Prince' TREASURE"
-      ],
-      image: "https://images.pexels.com/photos/1416736/pexels-photo-1416736.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
-      color: "from-purple-400 to-pink-500"
-    },
-    {
-      name: "DOI DOYOUNG",
-      koreanName: "도영",
-      position: "Vocalist",
-      birthDate: "4 Desember 2003",
-      birthPlace: "Tokyo, Jepang",
-      height: "172 cm",
-      bloodType: "B",
-      funFacts: [
-        "Member Jepang dengan kepribadian yang bright",
-        "Suka menari dan bernyanyi sejak kecil",
-        "Memiliki senyum yang sangat menawan",
-        "Dikenal sebagai 'Sunshine' TREASURE"
-      ],
-      image: "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&dpr=2",
-      color: "from-yellow-400 to-amber-500"
-    }
+        name: "SO JUNGHWAN",
+        koreanName: "소정환",
+        position: "Vocalist, Maknae",
+        birthDate: "Februari 18, 2005",
+        birthPlace: "Iksan, Korea Selatan", 
+        height: "180 cm",
+        bloodType: "B",
+        funFacts: [
+          "Disebut “Giant Baby” karena mukanya masih baby face meski tinggi.",
+          "Suka nyembunyiin snack di dorm biar nggak ketahuan hyung-hyung.",
+          "Bisa split dengan sempurna berkat latihan taekwondo saat kecil.",
+          "Paling gampang kaget kalau ada yang tiba-tiba teriak di belakangnya."
+        ],
+        image: "https://i.pinimg.com/736x/c4/bd/85/c4bd8579470d13fa936c559e96783a24.jpg",
+        color: "from-orange-400 to-red-500"
+      }
   ];
 
   return (
@@ -216,11 +185,11 @@ const Members = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-            12 Member TREASURE
+            10 Member TREASURE
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-8"></div>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Kenali lebih dekat 12 member TREASURE dengan kepribadian dan bakat unik masing-masing
+            Kenali lebih dekat 10 member TREASURE dengan kepribadian dan bakat unik masing-masing
           </p>
         </div>
 

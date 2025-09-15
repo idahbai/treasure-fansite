@@ -22,8 +22,8 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-gray-700 mb-12">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6">
-              <span className="text-yellow-400 font-semibold">TREASURE</span> adalah boy grup K-pop yang terdiri dari 12 anggota berbakat di bawah naungan YG Entertainment. 
-              Grup yang debut pada 7 Agustus 2020 ini terbentuk melalui survival show "YG Treasure Box\" pada tahun 2018.
+              <span className="text-yellow-400 font-semibold">TREASURE</span> adalah boy grup K-pop yang terdiri dari 10 anggota berbakat di bawah naungan YG Entertainment. 
+              Grup yang debut pada 7 Agustus 2020 ini terbentuk melalui survival show "YG Treasure Box" pada tahun 2018.
             </p>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6">
               Dengan nama fandom <span className="text-purple-400 font-semibold">TEUME</span> (아기오같은네), TREASURE telah berhasil mencuri hati jutaan penggemar di seluruh dunia 

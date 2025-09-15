@@ -6,15 +6,15 @@ const Hero = () => {
   const slides = [
     {
       title: "TREASURE",
-      subtitle: "12 Anggota, 1 Hati",
+      subtitle: "10 Anggota, 1 Hati",
       description: "Boy grup terbaik dari YG Entertainment yang telah mencuri hati jutaan TEUME di seluruh dunia",
-      image: "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "https://i.pinimg.com/1200x/e1/96/d5/e196d5ce0e9de5219036be72d3f99129.jpg"
     },
     {
       title: "KINGS OF K-POP",
       subtitle: "Generasi Baru",
       description: "Dengan talenta luar biasa dan visual yang memukau, TREASURE siap menaklukkan dunia musik",
-      image: "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "https://i.pinimg.com/736x/87/5f/5f/875f5ff3ee316eae05d97f8d49b91f6f.jpg"
     }
   ];
 
@@ -70,7 +70,7 @@ const Hero = () => {
 
           <div className="mt-12 flex justify-center gap-4">
             <div className="text-center">
-              <div className="text-3xl font-bold text-yellow-400">12</div>
+              <div className="text-3xl font-bold text-yellow-400">10</div>
               <div className="text-gray-300">Member</div>
             </div>
             <div className="text-center">

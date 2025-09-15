@@ -6,47 +6,82 @@ const Timeline = () => {
 
   const events = [
     {
-      year: "2018",
-      title: "YG Treasure Box",
-      description: "Survival show yang mempertemukan 29 trainee untuk membentuk grup baru YG Entertainment",
-      icon: Star,
-      color: "bg-purple-500"
-    },
-    {
-      year: "2019", 
-      title: "TREASURE 13 Terbentuk",
-      description: "13 anggota terpilih resmi menjadi TREASURE, kemudian menjadi 12 anggota",
-      icon: Trophy,
-      color: "bg-blue-500"
-    },
-    {
-      year: "2020",
-      title: "Debut Resmi",
-      description: "Debut dengan single album 'THE FIRST STEP : CHAPTER ONE' dan title track 'BOY'",
-      icon: Music,
-      color: "bg-yellow-500"
-    },
-    {
-      year: "2021",
-      title: "Album Pertama",
-      description: "Merilis full album pertama 'THE FIRST STEP : TREASURE EFFECT'",
-      icon: Music,
-      color: "bg-green-500"
-    },
-    {
-      year: "2022",
-      title: "World Tour",
-      description: "Menggelar konser world tour pertama 'TREASURE 2022 WORLD TOUR [HELLO]'",
-      icon: Trophy,
-      color: "bg-pink-500"
-    },
-    {
-      year: "2023",
-      title: "Era Baru",
-      description: "Comeback dengan 'REBOOT' dan terus berkembang sebagai global idol",
-      icon: Star,
-      color: "bg-orange-500"
-    }
+        year: "2018",
+        title: "YG Treasure Box",
+        description: "Survival show dengan 29 trainee untuk membentuk grup baru YG Entertainment",
+        icon: Star,
+        color: "bg-purple-500"
+      },
+      {
+        year: "2019",
+        title: "TREASURE 13 Terbentuk",
+        description: "13 anggota terpilih resmi menjadi TREASURE, kemudian menjadi 12 anggota",
+        icon: Trophy,
+        color: "bg-blue-500"
+      },
+      {
+        year: "2020",
+        title: "Debut Resmi",
+        description: "Debut dengan single album 'THE FIRST STEP : CHAPTER ONE' dan title track 'BOY'",
+        icon: Music,
+        color: "bg-yellow-500"
+      },
+      {
+        year: "2021",
+        title: "Album Pertama",
+        description: "Merilis full album pertama 'THE FIRST STEP : TREASURE EFFECT'",
+        icon: Music,
+        color: "bg-green-500"
+      },
+      {
+        year: "2022 (Awal)",
+        title: "World Tour",
+        description: "Menggelar konser world tour pertama 'TREASURE 2022 WORLD TOUR [HELLO]'",
+        icon: Trophy,
+        color: "bg-pink-500"
+      },
+      {
+        year: "2022 (Akhir)",
+        title: "Kehilangan 2 Member",
+        description: "Bang Yedam dan Mashiho resmi keluar dari grup, TREASURE melanjutkan dengan 10 member",
+        icon: Star,
+        color: "bg-gray-500"
+      },
+      {
+        year: "2023",
+        title: "Era Reboot & Subunit",
+        description: "Merilis album kedua 'REBOOT' dan memperkenalkan subunit T5",
+        icon: Star,
+        color: "bg-orange-500"
+      },
+      {
+        year: "2024",
+        title: "Single King Kong & Leader Baru",
+        description: "Rilis 'King Kong', 'Reverse', pre-release 'Last Night', serta pengumuman Junkyu & Asahi sebagai leader baru mulai 2025",
+        icon: Music,
+        color: "bg-red-500"
+      },
+      {
+        year: "2025 (Maret)",
+        title: "Mini Album Pleasure",
+        description: "Rilis mini album 'PLEASURE' dengan title track 'Yellow' serta tur fan-concert 'SPECIAL MOMENT'",
+        icon: Trophy,
+        color: "bg-indigo-500"
+      },
+      {
+        year: "2025 (Juni)",
+        title: "Live CD/DVD",
+        description: "Rilis '2025 TREASURE FAN CONCERT [SPECIAL MOMENT] IN JAPAN (LIVE CD/DVD)'",
+        icon: Star,
+        color: "bg-cyan-500"
+      },
+      {
+        year: "2025 (September)",
+        title: "Mini Album LOVE PULSE",
+        description: "Merilis mini album ketiga 'LOVE PULSE' sebagai comeback terbaru",
+        icon: Music,
+        color: "bg-teal-500"
+      }
   ];
 
   return (
