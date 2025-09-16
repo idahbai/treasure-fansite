@@ -7,16 +7,15 @@ const Members = () => {
   const members = [
     {
       name: "CHOI HYUNSUK",
-      koreanName: "현석",
-      englishName: "Daniel Choi",
-      position: "Rapper, Dancer",
+      koreanName: "최현석 ",
+      position: "Rapper, main dancer",
       birthDate: "April 21, 1999",
       birthPlace: "Daegu, Korea Selatan",
       height: "171 cm",
       bloodType: "A",
       funFacts: [
         "Koleksi lip balm lebih banyak dari koleksi topi.",
-        "Pernah ditolak audisi lebih dari 10 kali sebelum akhirnya masuk YG.",
+        "Paling gampang kaget kalau ada yang tiba-tiba teriak di belakangnya..",
         "Fans bilang ia punya kebiasaan bicara sendiri saat nervous.",
         "Dulu bercita-cita jadi produser sebelum yakin jadi idol."
       ],
@@ -25,9 +24,8 @@ const Members = () => {
     },
     {
       name: "PARK JIHOON",
-      koreanName: "박지훈",
-      englishName: "Jun Park", 
-      position: "Visual, Vocalist",
+      koreanName: "박지훈", 
+      position: "Visual, Vocalist, main dancer",
       birthDate: "Maret 14, 2000",
       birthPlace: "Busan, Korea Selatan",
       height: "178 cm",
@@ -36,16 +34,15 @@ const Members = () => {
         "Punya tahi lalat kecil di dada yang jadi “signature” bagi fans lama.",
         "Suka ngasih hadiah random (kayak polaroid dengan pesan kocak) ke member lain.",
         "Dulu dijuluki “prince of mood maker” oleh trainee YG.",
-        "Bisa niru suara karakter kartun dengan lumayan mirip."
+        " Suka meniru suara member lain dengan cukup mirip."
       ],
       image: "https://i.pinimg.com/736x/43/68/ec/4368ec487a3364532b1f4f5cedfaac8d.jpg",
       color: "from-blue-400 to-cyan-500"
     },
     {
       name: "KANEMOTO YOSHINORI",
-      koreanName: "카네모토 요시노리",
-      englishName: "Jaden Kim", 
-      position: "Rapper, Dancer",
+      koreanName: "카네모토 요시노리", 
+      position: "Rapper,",
       birthDate: "Mei 15, 2000", 
       birthPlace: "Kobe, Jepang",
       height: "179 cm",
@@ -54,7 +51,8 @@ const Members = () => {
         "Bisa bikin beat hanya dengan beatbox dan pulpen.",
         "Waktu trainee, dia suka bikin rap pakai lirik anime.",
         "Punya kebiasaan tidur sambil dengerin OST anime.",
-        "Sering desain tato ilustrasi sendiri "
+        "Sering desain tato ilustrasi sendiri ",
+        "Bisa niru suara karakter kartun dengan lumayan mirip"
       ],
       image: "https://i.pinimg.com/736x/0a/c7/28/0ac7287bfa0e15db82409899b9b768ed.jpg",
       color: "from-purple-400 to-indigo-500"
@@ -62,7 +60,7 @@ const Members = () => {
     {
       name: "KIM JUNKYU",
       koreanName: "김준규",
-      position: "Main Vocalist",
+      position: "Leader, Main Vocalist",
       birthDate: "September 9, 2000",
       birthPlace: "Chungju, Korea Selatan", 
       height: "178 cm",
@@ -70,7 +68,7 @@ const Members = () => {
       funFacts: [
         "Punya dua kucing yang dipanggilnya “noona” (Ruby & Aengdu).",
         "Gampang banget ketiduran bahkan di ruang latihan.",
-        "Nggak suka kalau ada orang duduk di tempat tidurnya.",
+        "Suka banget sama parfum, katanya punya koleksi lebih dari 10 botol ",
         "Dijuluki “Koala” karena wajahnya mirip binatang itu saat senyum."
       ],
       image: "https://i.pinimg.com/736x/fb/dc/aa/fbdcaa93b40e17524eac41bd6562bf39.jpg",
@@ -83,7 +81,7 @@ const Members = () => {
       birthDate: "Juli 23, 2001",
       birthPlace: "Yongin, Korea Selatan",
       height: "178 cm",
-      bloodType: "OS",
+      bloodType: "O",
       funFacts: [
         "Kidal, tapi beberapa dance move dia pakai tangan kanan biar sinkron.",
         "Punya eyelid tebal hanya di satu sisi mata, katanya itu daya tarik unik.",
@@ -96,7 +94,7 @@ const Members = () => {
     {
       name: "HAMADA ASAHI",
       koreanName: "浜田朝光",
-      position: "Vocalist, Visual",
+      position: "Leader, Vocalist, Visual",
       birthDate: "Agustus 20, 2001", 
       birthPlace: "Osaka, Jepang",
       height: "172 cm",
@@ -105,7 +103,8 @@ const Members = () => {
         "Salah satu kata Korea favoritnya “예술작품 (artwork)”.",
         "Suka gambar doodle random di mana aja (bahkan tisu & botol minum).",
         "Dulu main bola di Jepang sebelum pindah ke musik.",
-        "Pernah bikin lagu lengkap hanya dalam semalam."
+        "Pernah bikin lagu lengkap hanya dalam semalam.",
+        "Nggak suka kalau ada orang duduk di tempat tidurnya"
       ],
       image: "https://i.pinimg.com/736x/c2/13/af/c213afb44a2fb4d0e8c9582e7d64fe35.jpg",
       color: "from-teal-400 to-blue-500"
@@ -113,16 +112,16 @@ const Members = () => {
     {
         name: "KIM DOYOUNG",
         koreanName: "김도영",
-        position: "Vocalist, Dancer",
+        position: "Vocalist, Main Dancer",
         birthDate: "Desember 4, 2003",
-        birthPlace: "Tokyo, Jepang",
+        birthPlace: "Seoul, Korea Selatan",
         height: "177 cm",
         bloodType: "B",
         funFacts: [
           "Dijuluki “Sunshine” karena senyumnya dianggap paling cerah di grup.",
           "Bisa tidur dengan posisi badan miring aneh tapi tetap nyenyak.",
           "Paling sering ketawa sampai nangis di antara member.",
-          "Suka banget sama parfum, katanya punya koleksi lebih dari 10 botol."
+          "Punya bekas luka dibawah bbirnya karena dulu jatuh dirumah dan harus dijahit sebanyak 12 jahitan"
         ],
         image: "https://i.pinimg.com/736x/1b/ef/56/1bef56b814a1f4691696011e892a58a4.jpg",
         color: "from-yellow-400 to-amber-500"
@@ -149,13 +148,13 @@ const Members = () => {
       koreanName: "박정우",
       position: "Main Vocalist",
       birthDate: "September 28, 2004",
-      birthPlace: "Eoyang-dong, Korea Selatan",
+      birthPlace: "Iksan, Korea Selatan",
       height: "181 cm",
       bloodType: "O",
       funFacts: [
         "Paling sering tiba-tiba nyanyi lagu trot di dorm.",
         "Dikenal suka makan cepat, sampai fans sebut dia “eating machine”.",
-        "Suka meniru suara member lain dengan cukup mirip.",
+        "Sejak kecil impiannya pernah jadi surgeon(dokter bedah)",
         "Punya kebiasaan humming lagu bahkan saat lagi mandi."
       ],
       image: "https://i.pinimg.com/736x/58/36/5e/58365e85970b168e7f9cd0b160dd3b14.jpg",
@@ -164,7 +163,7 @@ const Members = () => {
     {
         name: "SO JUNGHWAN",
         koreanName: "소정환",
-        position: "Vocalist, Maknae",
+        position: "Vocalist, Maknae, Dancer",
         birthDate: "Februari 18, 2005",
         birthPlace: "Iksan, Korea Selatan", 
         height: "180 cm",
@@ -173,7 +172,7 @@ const Members = () => {
           "Disebut “Giant Baby” karena mukanya masih baby face meski tinggi.",
           "Suka nyembunyiin snack di dorm biar nggak ketahuan hyung-hyung.",
           "Bisa split dengan sempurna berkat latihan taekwondo saat kecil.",
-          "Paling gampang kaget kalau ada yang tiba-tiba teriak di belakangnya."
+          "Dijuluki super king cow baby karena posisinya sbagai maknae dan postur badannya lumayan tinngi besar untuk usianya."
         ],
         image: "https://i.pinimg.com/736x/c4/bd/85/c4bd8579470d13fa936c559e96783a24.jpg",
         color: "from-orange-400 to-red-500"
